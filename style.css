@@ -231,6 +231,10 @@ div button {
         flex-wrap: wrap;
         align-items: flex-start;
     }
+
+    h4 {
+        font-size: 15px;
+    }
     
     .footer-2 div {
         width: 40%;
