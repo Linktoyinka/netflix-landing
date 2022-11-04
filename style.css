@@ -198,6 +198,8 @@ div button {
 
 .footer {
     text-align: left;
+    border: 0;
+    padding: 7% 15%;
 }
 
 .footer-2 {
