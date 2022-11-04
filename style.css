@@ -10,6 +10,7 @@
 :root {
     --red: #E50914;
     --black: #000000;
+    --grey: #303030;
 }
 
 body {
@@ -87,7 +88,9 @@ p {
 
 
 section {
-    padding: 10% 20%;
+    padding: 10px 15%;
+    background-color: var(--black);    
+    border-bottom: 3px solid var(--grey);
 }
 
 
@@ -130,6 +133,7 @@ div button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 10% 20%;
 }
 
 .hero-1 {
@@ -150,4 +154,35 @@ div button {
 
 /* HERO STYLE END */
 
+
+/* MAIN-1 STYLE */
+.main, .main-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right, .left {
+    width: 40%;
+
+}
+
+.main .right, .main-2 .left {
+    text-align: center;
+}
+
+.right img, .main-2 .left img {
+    width: 100%;
+}
+
+.main-2 .right p, .main .left p {
+    margin-top: 10px;
+}
+
+/* faq */
+.faq {
+    text-align: center;
+}
+
+/* MAIN-1 STYLE ENDS */
 
