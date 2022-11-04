@@ -67,12 +67,13 @@ p {
 }
 
 .box {
-    padding: 2.15% 2%;
+    padding: 2% 2%;
     border-radius: 3px 0 0 3px;
     border: 0;
     outline: none;
     width: 60%;
     margin-right: -10px;
+    font-size: 100%;
 }
 
 .select {
@@ -164,7 +165,7 @@ div button {
 
 .right, .left {
     width: 40%;
-
+    margin: 10px 0 10px 0;
 }
 
 .main .right, .main-2 .left {
@@ -186,3 +187,66 @@ div button {
 
 /* MAIN-1 STYLE ENDS */
 
+
+
+@media screen and (max-width: 600px) {
+    .main, .main-2 {
+        flex-wrap: wrap;
+    }
+
+    .right, .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    
+    }
+    
+    p {
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 540px) {
+    .box {
+        width: 55%;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .box {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 403px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20;
+    }
+
+    .box {
+        width: 50%;
+        font-size: 70%;
+    }
+
+    .sec-btn {
+        font-size: 70%;
+    }
+}
