@@ -1,0 +1,153 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #E50914;
+    --black: #000000;
+}
+
+body {
+    width: 100%;    
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+/* HEADINGS DECLARAATION */
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 400;
+
+}
+
+p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* HEADINGS DECLARAATION END */
+
+
+/* BUTTON DECLARATION */
+.pri-btn {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--red);
+    width: 84px;
+    height: 34px;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    text-transform: capitalize;
+    outline: none;
+    cursor: pointer;
+}
+
+.sec-btn {
+    background-color: var(--red);
+    color: white;
+    font-size: 100%;
+    font-weight: 400;
+    border-radius: 0 3px 3px 0;
+    border: 0;
+    outline: none;
+    padding: 2% 5%;
+    cursor: pointer;
+}
+
+.box {
+    padding: 2.15% 2%;
+    border-radius: 3px 0 0 3px;
+    border: 0;
+    outline: none;
+    width: 60%;
+    margin-right: -10px;
+}
+
+.select {
+    background-color: var(--black);
+    color: white;
+    outline: none;
+    /* border: 0; */
+    border-radius: 3px;
+}
+
+
+/* BUTTON DECLARATION ENDS */
+
+
+section {
+    padding: 10% 20%;
+}
+
+
+
+/* HEADER STYLE */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 4%;
+    align-items: center;
+    /* background-image: linear-gradient(rgba(27, 25, 25, 0.863), rgb(255, 255, 255)); */
+}
+
+header img {
+    width: 10%;
+}
+
+header div {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+div form {
+    margin-right: 1%;
+}
+
+div button {
+    margin-left: 1%;
+}
+
+
+
+/* HERO STYLE */
+
+.hero {
+    margin-top: -19%;
+    /* height: 500px; */
+    background-image: url(images/Hero\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-1 {
+    display: grid;
+    place-content: center;
+    align-content: center;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.hero-1 form {
+    margin-top: 15px;
+}
+
+.hero-1 form p {
+    margin-bottom: 7px;
+}
+
+/* HERO STYLE END */
+
+
