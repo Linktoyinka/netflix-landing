@@ -10,7 +10,7 @@
 :root {
     --red: #E50914;
     --black: #000000;
-    --grey: #303030;
+    --grey: #757575;
 }
 
 body {
@@ -59,6 +59,7 @@ p {
     text-transform: capitalize;
     outline: none;
     cursor: pointer;
+    margin-left: 5px;
 }
 
 .sec-btn {
