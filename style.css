@@ -231,6 +231,14 @@ div button {
         flex-wrap: wrap;
         align-items: flex-start;
     }
+    
+    section {
+        padding: 10px 5%;
+    }
+    
+    .hero {
+        padding: 10% 5%;
+    }
 
     h4 {
         font-size: 13px;
